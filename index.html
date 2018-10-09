@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hotline Radio</title>
+		
+		<!--style-->
+		<link rel="icon" href="img/50blessings.png">
+		<link rel="stylesheet" href="css/style.css">
+		<!--scripts-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
+		<script type="text/javascript" src="js/player.js"></script>
+		<script type="text/javascript" src="js/background.js"></script>
+		<script type="text/javascript" src="js/buildings.js"></script>
+	</head>
+
+	<body>
+		<div id="gradient"></div>
+		
+		<div class="sun"></div>
+			
+		<div class="logo">
+			<img class="hot" src="img/logo.png">
+		</div>
+		
+		<div class="build" id="image1">
+			<img class="buildings1" src="img/bgSkyline2.png">
+			<img class="buildings2" src="img/bgSkyline2.png">
+			<img class="buildings3" src="img/bgSkyline2.png">
+			<img class="buildings4" src="img/bgSkyline2.png">
+		</div>
+		
+		<div id="jquery_jplayer_1" class="jp-jplayer"></div>	
+		<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+	
+			<div class="jp-type-playlist">
+			
+				<div class="jp-gui jp-interface">	
+				
+					<div id="current-track">&nbsp;</div>
+					<div id="remaining-time">&nbsp;</div>
+					
+					<div class="jp-controls">
+						<button class="jp-play" role="button" tabindex="0">Play</button>
+						<button class="jp-next" role="button" tabindex="0">Next</button>
+					</div>
+					
+					<div class="jp-progress">
+						<div class="jp-seek-bar">
+							<div class="jp-play-bar"></div>
+						</div>
+					</div>
+					
+					<!--
+					<div class="jp-volume-controls">
+						<button class="jp-mute" role="button" tabindex="0">Mute</button>
+						<button class="jp-volume-max" role="button" tabindex="0">Max volume</button>
+						
+						<div class="jp-volume-bar">
+							<div class="jp-volume-bar-value"></div>
+						</div>
+					</div>			
+					-->
+				</div>
+				
+				<div class="jp-playlist" style="display:none;">
+					<ul>
+						<li>&nbsp;</li>
+					</ul>
+				</div>
+				
+				<div class="jp-no-solution">
+					<span>Update Required</span>
+					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

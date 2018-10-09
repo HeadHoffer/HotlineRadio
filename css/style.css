@@ -1,0 +1,413 @@
+body {
+	background-color:#000000;
+	padding:0px;
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+/* background */
+#gradient {
+	position:fixed;
+	width:100%;
+	height:100%;
+}
+
+div.logo .hot {
+	position:fixed;
+	top:45%;
+	left:50%;
+	margin-top:-181px;
+	margin-left:-369px;
+	animation:shake 15s infinite;
+	animation-direction:alternate;
+	animation-timing-function:ease-in-out;
+}
+
+div.build .buildings1 {
+	position:fixed;
+	bottom:0%;
+	left:0;
+	margin-top:-160px;
+	float:left;
+}
+div.build .buildings2 {
+	position:fixed;
+	bottom:0%;
+	left:640px;
+	margin-top:-160px;
+	float:left;
+}
+div.build .buildings3 {
+	position:fixed;
+	bottom:0%;
+	left:1280px;
+	margin-top:-160px;
+	float:left;
+}
+div.build .buildings4 {
+	position:fixed;
+	bottom:0%;
+	left:1920px;
+	margin-top:-160px;
+	float:left;
+}
+
+@keyframes shake {
+	0% {
+		transform:rotate(0deg);
+	}
+	25% {
+		transform:rotate(9deg);
+	}
+	50% {
+		transform:rotate(-7deg);
+	}
+	75% {
+		transform:rotate(7deg);
+	}
+	100% {
+		transform:rotate(-10deg);
+	}
+}
+
+@-webkit-keyframes shake {
+	0% {
+		-webkit-transform:rotate(0deg);
+	}
+	25% {
+		-webkit-transform:rotate(9deg);
+	}
+	50% {
+		-webkit-transform:rotate(-7deg);
+	}
+	75% {
+		-webkit-transform:rotate(7deg);
+	}
+	100% {
+		-webkit-transform:rotate(-10deg);
+	}
+}
+
+.sun {
+	top:45%;
+	left:50%;
+	width:500px;
+	height:500px;
+	margin-left:-250px;
+	margin-top:-250px;
+	border-radius:50%;
+	position:fixed;
+	background-color:#debf23;
+	animation:solar 10s infinite;
+}
+
+@keyframes solar {
+	0% {
+		background-color:#debf23;
+	}
+	50% {
+		background-color:#db3918;
+		width:550px;
+		height:550px;
+		margin-left:-275px;
+		margin-top:-275px;
+	}
+	
+	100% {
+		background-color:#debf23;
+	}
+}
+
+@-webkit-keyframes solar {
+	0% {
+	background-color:#debf23;
+	}
+	50% {
+		background-color:#db3918;
+		width:550px;
+		height:550px;
+		margin-left:-275px;
+		margin-top:-275px;
+	}
+	
+	100% {
+		background-color:#debf23;
+	}
+}
+
+/* ----------------------player---------------------- */
+.jp-audio :focus {
+	outline:0;
+}
+
+.jp-audio button::-moz-focus-inner {
+	border:0; 
+}
+
+@font-face {
+    font-family: 'disco';
+    src: url('../fonts/discoduck3dital.ttf');
+}
+
+.jp-icon {
+	font-family:'disco';
+}
+
+.jp-audio {
+	font-size:40px;
+	font-family:disco;
+	line-height:1.6;
+	color:#ffffff;
+	height:100px;
+}
+
+#current-track {
+	position:fixed;
+	margin-left:160px;
+	margin-top:35px;
+	font-size:40px;
+	font-family:disco;
+	line-height:1.6;
+	color:#ffffff;
+}
+
+#remaining-time {
+	position:fixed;
+	right:30px;
+	margin-top:35px;
+	font-size:40px;
+	font-family:disco;
+	line-height:1.6;
+	color:#ffffff;
+	z-index:1000;
+}
+
+.jp-interface {
+	bottom:10px;
+	left:10px;
+	right:10px;
+	position:fixed;
+	border:3px solid #808080;
+    background-color:#0040ff;
+}
+
+.jp-audio .jp-interface {
+	height:100px;
+}
+
+.jp-audio .jp-controls {
+	width:180px;
+}
+	
+.jp-controls button {
+	display:block;
+	float:left;
+	overflow:hidden;
+	text-indent:-9999px;
+	border:none;
+	cursor:pointer;
+}
+
+.jp-play {
+	margin-top:50px;
+	margin-left:10px;
+	width:40px;
+	height:40px;
+	background:url(../img/player/play.png) no-repeat;
+}
+	
+.jp-play:focus {
+	background:url(../img/player/play-focus.png) no-repeat;
+}
+	
+.jp-state-playing .jp-play {
+	background:url(../img/player/pause.png) no-repeat;
+}
+	
+.jp-state-playing .jp-play:focus {
+	background:url(../img/player/pause-focus.png) no-repeat;
+}
+	
+.jp-stop {
+	width:40px;
+	height:40px;
+	margin-top:10px;
+	margin-left:10px;
+	background:url(../img/player/pause.png) no-repeat;
+}
+	
+.jp-stop:focus {
+	background:url(../img/player/pause-focus.png) no-repeat;
+}
+	
+.jp-next {
+	width:40px;
+	height:40px;
+	margin-top:50px;
+	margin-left:10px;
+	background:url(../img/player/next.png) no-repeat;
+}
+	
+.jp-next:focus {
+	background:url(../img/player/next-focus.png) no-repeat;
+}
+	
+.jp-progress {
+	overflow:hidden;
+	position:absolute;
+	left:10px;
+	right:10px;
+	top:10px;
+	margin:auto;
+	background-color:#666699;
+	height:30px;		
+}
+
+.jp-seek-bar {
+	background-color:#666699;
+	width:0;
+	height:100%;
+	cursor:pointer;
+}
+	
+.jp-play-bar {
+	background-color:#66ffe0;
+	width:0;
+	height:100%;
+}
+
+.jp-seeking-bg {
+	background-color:#666699; 
+}
+
+.jp-jplayer,.jp-jplayer audio {
+	width:0;
+	height:0;
+}
+	
+.jp-jplayer {
+	background-color:#000;
+}
+	
+.jp-toggles {
+	padding:0;
+	margin:0 auto;
+	overflow:hidden;
+}
+	
+.jp-audio .jp-type-playlist .jp-toggles {
+	width:55px;
+	margin:0;
+	position:absolute;
+	left:325px;
+	top:50px;
+}
+
+.jp-toggles button {
+	display:block;
+	float:left;
+	width:25px;
+	height:18px;
+	text-indent:-9999px;
+	line-height:100%;
+	border:none;
+	cursor:pointer;
+}
+
+.jp-no-solution {
+	padding:5px;
+	font-size:.8em;
+	background-color:#eee;
+	border:2px solid #666699;
+	color:#000;
+	display:none;
+}
+	
+.jp-no-solution a {
+	color:#000;
+}
+	
+.jp-no-solution span {
+	font-size:1em; 
+	display:block;
+	text-align:center;
+	font-weight:700;
+}
+
+/*
+.jp-state-no-volume .jp-volume-controls {
+	display:none;
+}
+
+.jp-volume-controls {
+	position:absolute;
+	top:78px;
+	left:100px;
+	margin:auto;
+}
+
+.jp-volume-controls button {
+	display:block;
+	position:absolute;
+	overflow:hidden;
+	text-indent:-9999px;
+	border:none;
+	cursor:pointer;
+}
+
+
+.jp-mute,.jp-volume-max {
+	width:17px;
+	height:17px;
+}
+
+.jp-volume-max {
+	left:20px;
+}
+
+.jp-mute {
+	left:-20px;
+	background:url(../img/player/sprite5minvol.png) no-repeat;
+}
+	
+.jp-mute:focus {
+	background:url(../img/player/sprite5minvol.png) no-repeat;
+}
+	
+.jp-state-muted .jp-mute {
+	background:url(../img/player/sprite5minvol.png) no-repeat;
+}
+	
+.jp-state-muted .jp-mute:focus {
+	background:url(../img/player/sprite5minvol.png) no-repeat;
+}
+	
+.jp-volume-max {
+	background:url(../img/player/sprite5maxvol.png) no-repeat;
+}
+	
+.jp-volume-max:focus {
+	background:url(../img/player/sprite5maxvol.png) no-repeat;
+}
+*/
+	
+/* volume bar */
+/*
+.jp-volume-bar {
+	position:absolute;
+	overflow:hidden;
+	background-color:#940773;
+	top:10px;
+	left:30px;
+	width:40px;
+	height:15px;
+	cursor:pointer;
+}
+	
+.jp-volume-bar-value {
+	background-color:#eb1587;
+	width:0;
+	height:15px;
+}
+*/
