@@ -52,6 +52,10 @@ $(document).ready(function(){
 			mp3: path + "Carpenter Brut - Le Perv (Moon Remix).mp3",
 		},
 		{
+			title:"Carpenter Brut - Obituary",
+			mp3: path + "Carpenter Brut - Obituary.mp3",
+		},
+		{
 			title:"Carpenter Brut - Roller Mobster",
 			mp3: path + "Carpenter Brut - Roller Mobster.mp3",
 		},
@@ -92,6 +96,10 @@ $(document).ready(function(){
 			mp3: path + "Dag Unenge - The Winding Theme 4.mp3",
 		},
 		{
+			title:"DANCE WITH THE DEAD - Mask",
+			mp3: path + "DANCE WITH THE DEAD - Mask.mp3",
+		},
+		{
 			title:"Das Mörtal - La Drogue",
 			mp3: path + "Das Mörtal - La Drogue.mp3",
 		},
@@ -126,6 +134,10 @@ $(document).ready(function(){
 		{
 			title:"El Huervo - Ghost",
 			mp3: path + "El Huervo - Ghost.mp3",
+		},
+		{
+			title:"El Huervo - Le Temps (Infomercial Rework)",
+			mp3: path + "El Huervo - Le Temps (Infomercial Rework).mp3",
 		},
 		{
 			title:"El Huervo - Rest",
@@ -212,6 +224,10 @@ $(document).ready(function(){
 			mp3: path + "Jasper Byrne - Voyager.mp3",
 		},
 		{
+			title:"kudasai - the girl i haven't met",
+			mp3: path + "kudasai - the girl i haven't met.mp3",
+		},
+		{
 			title:"Light Club - Blizzard",
 			mp3: path + "Light Club - Blizzard.mp3",
 		},
@@ -264,6 +280,10 @@ $(document).ready(function(){
 			mp3: path + "Makeup and Vanity Set - Transmit.mp3",
 		},
 		{
+			title:"Mega Drive - Converter",
+			mp3: path + "Mega Drive - Converter.mp3",
+		},
+		{
 			title:"Mega Drive - Infiltrate + Acid Spit",
 			mp3: path + "Mega Drive - Acid Spit (Extended).mp3",
 		},
@@ -272,8 +292,16 @@ $(document).ready(function(){
 			mp3: path + "Mega Drive - NARC.mp3",
 		},
 		{
+			title:"Mega Drive - Neo Tokyo 2019",
+			mp3: path + "Mega Drive - Neo Tokyo 2019.mp3",
+		},
+		{
 			title:"Mega Drive - Slum Lord",
 			mp3: path + "Mega Drive - Slum Lord.mp3",
+		},
+		{
+			title:"Mega Drive - Tears in the Rain",
+			mp3: path + "Mega Drive - Tears in the Rain.mp3",
 		},
 		{
 			title:"Mitch Murder - Frantic Aerobics",
@@ -342,6 +370,14 @@ $(document).ready(function(){
 		{
 			title:"Perturbator - Angel Dust",
 			mp3: path + "Perturbator - Angel Dust.mp3",
+		},
+		{
+			title:"Perturbator - Creature",
+			mp3: path + "Perturbator - Creature.mp3",
+		},
+		{
+			title:"Perturbator - Disco Girls",
+			mp3: path + "Perturbator - Disco Girls.mp3",
 		},
 		{
 			title:"Perturbator - Electric Dreams",
@@ -533,7 +569,7 @@ $(document).ready(function(){
 		},
 		
 		playlistOptions: {
-			autoPlay: true,
+			autoPlay: false,
 			loopOnPrevious: true,
 			shuffleOnLoop: false,
 			enableRemoveControls: false,

@@ -4,17 +4,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Hotline Radio</title>
+		<meta name="description" content="Hotline Radio">
 		
-		<!--style-->
 		<link rel="icon" href="img/50blessings.png">
 		<link rel="stylesheet" href="css/style.css">
-		<!--scripts-->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
 		<script type="text/javascript" src="js/jplayer.playlist.min.js"></script>
 		<script type="text/javascript" src="js/player.js"></script>
 		<script type="text/javascript" src="js/background.js"></script>
 		<script type="text/javascript" src="js/buildings.js"></script>
+		<script type="text/javascript" src="js/buttons.js"></script>
 	</head>
 
 	<body>
@@ -32,6 +32,8 @@
 			<img class="buildings3" src="img/bgSkyline2.png">
 			<img class="buildings4" src="img/bgSkyline2.png">
 		</div>
+		
+		<button id="infobut" role="button" tabindex="0" onclick="showInfo()"></button>
 		
 		<div id="jquery_jplayer_1" class="jp-jplayer"></div>	
 		<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
@@ -54,16 +56,6 @@
 						</div>
 					</div>
 					
-					<!--
-					<div class="jp-volume-controls">
-						<button class="jp-mute" role="button" tabindex="0">Mute</button>
-						<button class="jp-volume-max" role="button" tabindex="0">Max volume</button>
-						
-						<div class="jp-volume-bar">
-							<div class="jp-volume-bar-value"></div>
-						</div>
-					</div>			
-					-->
 				</div>
 				
 				<div class="jp-playlist" style="display:none;">
@@ -77,6 +69,18 @@
 					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
 				</div>
 			</div>
+		</div>
+				
+		<div id="infoContainer">
+			<div id="header"><i>HOTLINE RADIO</i></div>
+			<div id="info">
+				This is a fanmade radio done in love for Hotline Miami's soundtrack.
+				This site is not in any way associated with the makers of Hotline Miami nor the artists included in it.
+				Please support the artists in their related websites (BandCamp, SoundCloud etc).
+				Also play Hotline Miami 1 & 2, they're awesome games!
+			</div>
+			<img id="tony" src="img/tony.png">
+			<button id="exit" role="button" tabindex="0" onclick="exitInfo()"></button>
 		</div>
 	</body>
 </html>
