@@ -224,10 +224,6 @@ $(document).ready(function(){
 			mp3: path + "Jasper Byrne - Voyager.mp3",
 		},
 		{
-			title:"kudasai - the girl i haven't met",
-			mp3: path + "kudasai - the girl i haven't met.mp3",
-		},
-		{
 			title:"Light Club - Blizzard",
 			mp3: path + "Light Club - Blizzard.mp3",
 		},
@@ -282,6 +278,10 @@ $(document).ready(function(){
 		{
 			title:"Mega Drive - Converter",
 			mp3: path + "Mega Drive - Converter.mp3",
+		},
+		{
+			title:"Mega Drive - I Am The Program (Perturbator Remix)",
+			mp3:"Mega Drive - I Am The Program (Perturbator Remix).mp3",
 		},
 		{
 			title:"Mega Drive - Infiltrate + Acid Spit",
@@ -394,6 +394,10 @@ $(document).ready(function(){
 		{
 			title:"Perturbator - I Ran To The Arcade",
 			mp3: path + "Perturbator - I Ran To The Arcade.mp3",
+		},
+		{
+			title:"Perturbator feat. Le Cassette - Meet Jimmy",
+			mp3: path + "Perturbator - Meet Jimmy.mp3",
 		},
 		{
 			title:"Perturbator - Miami Disco",
@@ -524,8 +528,24 @@ $(document).ready(function(){
 			mp3: path + "Tempel - Disclosure.mp3",
 		},
 		{
-			title:"The Green Kingdom - Untitled",
+			title:"The Green Kingdom - Untitled 2",
 			mp3: path + "The Green Kingdom - Untitled.mp3",
+		},
+		{
+			title:"The Green Kingdom - Untitled 6",
+			mp3: path + "The Green Kingdom - Untitled 6.mp3",
+		},
+		{
+			title:"The Green Kingdom - Untitled 8",
+			mp3: path + "The Green Kingdom - Untitled 8.mp3",
+		},
+		{
+			title:"The Green Kingdom - Untitled 10",
+			mp3: path + "The Green Kingdom - Untitled 10.mp3",
+		},
+		{
+			title:"Trevor Something - Into Your Heart",
+			mp3: path + "Trevor Something - Into Your Heart.mp3",
 		},
 		{
 			title:"Trizzle - WouJuno",
@@ -542,6 +562,10 @@ $(document).ready(function(){
 		{
 			title:"Vestron Vulture - Rip",
 			mp3: path + "Vestron Vulture - Rip.mp3",
+		},
+		{
+			title:"whitearmor - i kno",
+			mp3: path + "whitearmor - i kno.mp3",
 		},
 		{
 			title:"x - My Only Chance",

@@ -133,6 +133,7 @@ div.build .buildings4 {
 }
 
 #infoContainer {
+	display: none;
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -171,7 +172,7 @@ div.build .buildings4 {
 
 #tony {
 	position: absolute;
-	top:70%;
+	top:75%;
 	left:50%;
 	width:214px;
 	height:200px;
